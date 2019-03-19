@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "Center", "group": 1},
+    {"id": "Napoleon", "group": 1},
+    {"id": "CountessdeLo", "group": 1},
+    {"id": "Geborand", "group": 1},
+    {"id": "Champtercier", "group": 2},
+    {"id": "Cravatte", "group": 3},
+    {"id": "OldMan", "group": 7},
+    {"id": "YoungMan", "group": 7}
+  ],
+  "links": [
+    {"source": "Napoleon", "target": "Center", "value": 1},
+    {"source": "CountessdeLo", "target": "Center", "value": 1},
+    {"source": "Geborand", "target": "Center", "value": 1},
+    {"source": "Champtercier", "target": "Center", "value": 1},
+    {"source": "Cravatte", "target": "Center", "value": 1},
+    {"source": "OldMan", "target": "Center", "value": 1},
+    {"source": "Napoleon", "target": "Geborand", "value": 1},
+    {"source": "YoungMan", "target": "OldMan", "value": 20}
+  ]
+}
